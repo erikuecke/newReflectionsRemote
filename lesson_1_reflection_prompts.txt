@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Fill in your answer here
+
+    See what had changed from an old version of a file to a new version, helped greatly to know
+    where to start looking for possible bugs in the code. Since there will be many changes done to a 
+    project between git pushes, at least know where to look in the code will decrease the debugging time significantly.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You can go back to any point and see what changes were made and why. Not only by you but also 
+    by other programmers. A good way to search where your program went wrong or where it needs to be changed to go in a different direction than orignially planned.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    
+    The number one con is the responisibility of the coder to make commits. But by making this a 
+    completely manual process, you are making the programmer more conscious of additions and changes done to the project but also of creating a logical history of the project that can be access by anyone later.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    
+    Version control sytems allow saving multiple files because programming in web dev or others environments like iOS Development require the use of multiple files. Good Docs on the other hand is more commonly used for single document projects.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log will show you the history of your commits. You can then use the id of each logged commit to compared changes of lines added and deleted.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    With the ability to use git checkout you can always go back to version before things were broken and also see the changes that may have caused the error.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to be able to run dreamweaver and xcode through git 
+    
